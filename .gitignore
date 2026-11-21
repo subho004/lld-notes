@@ -1,0 +1,11 @@
+*.class
+__pycache__/
+*.pyc
+*.o
+build/
+out/
+.DS_Store
+# compiled C++ binaries
+cpp/**/main
+cpp/**/*.out
+head_first_markdown/

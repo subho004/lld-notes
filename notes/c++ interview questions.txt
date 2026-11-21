@@ -1,0 +1,295 @@
+Interview Questions
+C++ Language Basics
+1 . What is C++ and how did it evolve from C?
+2 . What are the key differences between C and C++?
+3 . What is the compilation process in C++? (preprocessing, compilation, assembly, linking)
+4 . What is a translation unit?
+5 . What is the difference between declaration and definition?
+6 . What is the role of the linker in C++?
+7 . What is a header file and why do we use header guards?
+8 . What is the difference between #include <file> and #include "file"?
+9 . What is a namespace in C++ and why is it used?
+10 . What is the using namespace std; statement and why is it discouraged in header files?
+11 . What are the important differences between C++ and Java?
+12 . What are the different data types in C++?
+13 . What is the difference between int, short, long, and long long?
+14 . What is the auto keyword and how does type deduction work?
+15 . What is the difference between signed and unsigned types?
+Casting & Type Conversion
+16 . What is type casting in C++?
+17 . What is implicit (automatic) type conversion?
+18 . What is explicit type conversion?
+19 . What is static_cast and when do you use it?
+20 . What is dynamic_cast and when do you use it?
+21 . What is const_cast and when do you use it?
+22 . What is reinterpret_cast and when do you use it?
+23 . What are the differences between C-style casts and C++-style casts?
+24 . What is RTTI (Run-Time Type Information)?
+25 . What is the typeid operator?
+Strings
+26 . What is the difference between C-style strings and std::string?
+27 . What are the common member functions of std::string?
+28 . How do you concatenate strings in C++?
+29 . Why should you be careful with std::string concatenation in loops?
+30 . What is Small String Optimization (SSO)?
+31 . How do you convert a string to a number and vice versa in C++?
+32 . What is std::string_view and why was it introduced?
+33 . How do you compare two strings in C++?
+34 . What is the difference between std::string and char*?
+Object Oriented Programming Basics
+35 . What is a class?
+36 . What is an object?
+37 . What is the difference between a class and a struct in C++?
+38 . What is encapsulation?
+39 . What is the this pointer?
+40 . What are member functions and data members?
+41 . What is a member initializer list, and why is it preferred over assignment in the constructor body?
+42 . What is method overloading?
+43 . What is operator overloading?
+44 . What is the scope resolution operator :: used for?
+45 . What are static members of a class?
+46 . What is a static member function, and how does it differ from an instance member function?
+47 . What is a friend function?
+48 . What is a friend class?
+49 . What is a nested (inner) class?
+50 . What is an anonymous/unnamed namespace, and how is it different from static at file scope?
+Constructors & Destructors
+51 . What is a constructor?
+52 . What is a default constructor?
+53 . What is a parameterized constructor?
+54 . What is a copy constructor, and when is it called?
+55 . What is the difference between a shallow copy and a deep copy?
+56 . What is a move constructor?
+57 . What is a destructor, and when is it called?
+58 . Can a destructor be virtual? Why is a virtual destructor important?
+59 . What is the Rule of Three?
+60 . What is the Rule of Five?
+61 . What is the Rule of Zero?
+62 . What is a delegating constructor?
+63 . What is an explicit constructor, and why use the explicit keyword?
+64 . What is a copy assignment operator, and when is it invoked?
+65 . What is a move assignment operator?
+66 . What happens if you don't define a copy constructor, destructor, or assignment operator?
+67 . What is the order of constructor and destructor calls in an inheritance hierarchy?
+68 . Can a constructor call another constructor of the same class directly?
+69 . What is a private constructor used for?
+Operator Overloading
+70 . What operators can be overloaded in C++, and which cannot?
+71 . How do you overload the + operator for a custom class?
+72 . What is the difference between overloading an operator as a member function vs a friend function?
+73 . How do you overload the assignment operator (=)?
+74 . How do you overload the stream insertion (<<) and extraction (>>) operators?
+75 . How do you overload the [] (subscript) operator?
+76 . How do you overload the () (function call) operator, and what is a functor?
+77 . What is operator overloading ambiguity, and how do you avoid it?
+Inheritance
+78 . What is inheritance in C++?
+79 . What are the types of inheritance in C++?
+80 . What is single inheritance?
+81 . What is multiple inheritance?
+82 . What is multilevel inheritance?
+83 . What is hierarchical inheritance?
+84 . What is hybrid inheritance?
+85 . What is the diamond problem, and how does C++ solve it?
+86 . What is virtual inheritance?
+87 . What are public, private, and protected inheritance?
+88 . Can a derived class access private members of the base class?
+89 . What is object slicing?
+90 . How do you call a base class constructor from a derived class?
+91 . Can a base class reference/pointer hold a derived class object, and vice versa?
+Polymorphism & Virtual Functions
+92 . What is polymorphism?
+93 . What is compile-time (static) polymorphism vs runtime (dynamic) polymorphism?
+94 . What is a virtual function?
+95 . What is function overriding?
+96 . What is the difference between overloading and overriding?
+97 . What is a pure virtual function?
+98 . What is an abstract class in C++?
+99 . What is an interface in C++ (and how is it simulated)?
+100 . What is a virtual table (vtable) and vptr?
+101 . How does dynamic dispatch work internally in C++?
+102 . What is the override keyword used for?
+103 . What is the final keyword used for?
+104 . Why can't constructors be virtual?
+105 . Why is it important to have a virtual destructor in a base class?
+106 . What happens if you call a virtual function from a constructor or destructor?
+107 . What is a covariant return type?
+Access Modifiers & Const Correctness
+108 . What are the access specifiers in C++?
+109 . What is the default access specifier for a class and a struct?
+110 . What is a const member function?
+111 . What is a const object, and what can it call?
+112 . What is the difference between a const pointer and a pointer to const?
+113 . What is the mutable keyword used for?
+114 . What is constexpr, and how is it different from const?
+115 . What is consteval and constinit (C++20)?
+Pointers, References & Memory Management
+116 . What is a pointer?
+117 . What is a reference?
+118 . What is the difference between a pointer and a reference?
+119 . What is a null pointer, and what is nullptr?
+120 . What is a dangling pointer?
+121 . What is a wild pointer?
+122 . What is a void pointer?
+123 . What is pointer arithmetic?
+124 . What is the difference between new/delete and malloc/free?
+125 . What is a memory leak, and how do you avoid one?
+126 . What is the difference between stack and heap memory?
+127 . What are smart pointers, and why were they introduced?
+128 . What is std::unique_ptr?
+129 . What is std::shared_ptr, and how does reference counting work?
+130 . What is std::weak_ptr, and what problem does it solve?
+131 . What is a circular reference in shared_ptr, and how does weak_ptr fix it?
+132 . What is std::auto_ptr, and why was it deprecated?
+133 . What is RAII (Resource Acquisition Is Initialization)?
+134 . What is a double pointer (pointer to pointer)?
+135 . What is a function pointer?
+136 . What is the difference between deep copy and shallow copy in the context of pointers?
+Templates & Generic Programming
+137 . What are templates in C++?
+138 . What is a function template?
+139 . What is a class template?
+140 . What is template specialization?
+141 . What is partial template specialization?
+142 . What are variadic templates?
+143 . What is SFINAE?
+144 . What are C++20 Concepts, and how do they improve on SFINAE?
+145 . What is the difference between C++ templates and Java generics?
+146 . What is a template parameter pack?
+147 . What is CRTP (Curiously Recurring Template Pattern)?
+148 . What is template metaprogramming?
+Exception Handling
+149 . Why is exception handling important?
+150 . What are try, catch, and throw?
+151 . What is the exception hierarchy in C++ (std::exception)?
+152 . How do you create a custom exception class?
+153 . What is the difference between catching by value, pointer, and reference?
+154 . What is stack unwinding?
+155 . What is a noexcept specifier, and why does it matter?
+156 . What happens if an exception is thrown from a destructor?
+157 . Does C++ have checked exceptions like Java?
+158 . What is the use of catch(...)?
+159 . What are exception handling best practices in C++?
+160 . What is std::terminate and when is it called?
+Preprocessor & Compilation
+161 . What is the preprocessor, and what does it do?
+162 . What is a macro, and what are its pitfalls?
+163 . What is the difference between a macro and an inline function?
+164 . What is #pragma once vs traditional include guards?
+165 . What is conditional compilation?
+166 . What are storage classes in C++ (auto, register, static, extern, thread_local)?
+167 . What is the difference between declaration and definition of a variable using extern?
+168 . What is name mangling, and why does C++ need extern "C"?
+STL Overview & Sequence Containers
+169 . What is the Standard Template Library (STL)? What are its components?
+170 . What are the main categories of STL containers?
+171 . What is std::array, and how is it different from a C-style array?
+172 . What is std::vector, and how does it grow internally?
+173 . What is the difference between size() and capacity() of a vector?
+174 . What happens during vector reallocation, and why can it invalidate iterators?
+175 . What is std::deque, and how is it different from std::vector?
+176 . What is std::list, and when would you use it over a vector?
+177 . What is std::forward_list?
+178 . Compare vector, list, and deque in terms of performance.
+STL Associative & Unordered Containers
+179 . What is std::set, and how is it implemented internally?
+180 . What is std::multiset?
+181 . What is std::map, and how is it implemented internally?
+182 . What is std::multimap?
+183 . What is the difference between map and unordered_map?
+184 . What is std::unordered_set, and how does it handle collisions?
+185 . What is load factor and rehashing in unordered containers?
+186 . What is std::unordered_multimap / std::unordered_multiset?
+187 . When would you prefer map over unordered_map, and vice versa?
+188 . What is std::flat_map (C++23)?
+STL Container Adapters
+189 . What is std::stack, and what is its underlying container?
+190 . What is std::queue?
+191 . What is std::priority_queue, and how is it implemented?
+192 . How do you implement a min-heap using priority_queue?
+STL Iterators
+193 . What is an iterator in C++?
+194 . What are the categories of iterators (input, output, forward, bidirectional, random access)?
+195 . What is the difference between begin()/end() and cbegin()/cend()?
+196 . What is a reverse iterator?
+197 . What is iterator invalidation?
+198 . What is the difference between an iterator and a pointer?
+199 . What are insert iterators (back_inserter, front_inserter, inserter)?
+STL Algorithms
+200 . What is the <algorithm> header, and what kinds of algorithms does it provide?
+201 . How does std::sort work internally, and what is its time complexity?
+202 . What is the difference between std::sort and std::stable_sort?
+203 . What is std::find, and what is its complexity?
+204 . What is the difference between std::binary_search, std::lower_bound, and std::upper_bound?
+205 . What is std::accumulate, and where is it defined?
+206 . What is std::transform?
+207 . What is std::for_each?
+208 . What is the difference between std::remove and container erase (the erase-remove idiom)?
+209 . What is std::unique, and why must the range be sorted first?
+210 . What are C++20 Ranges, and how do they improve on classic algorithms?
+Functors, Lambdas & std::function
+211 . What is a functor (function object)?
+212 . What is a lambda expression in C++?
+213 . What is the syntax of a lambda expression, and what does the capture clause do?
+214 . What is the difference between capturing by value and by reference in a lambda?
+215 . What is a generic (templated) lambda?
+216 . What is std::function, and how is it different from a function pointer?
+217 . What is std::bind?
+218 . What are the standard functors like std::less, std::greater, std::plus?
+Data Structures & Complexity
+219 . What is Big-O notation, and why does it matter in interviews?
+220 . What is the difference between an array and a linked list?
+221 . What is a singly linked list vs a doubly linked list vs a circular linked list?
+222 . How do you reverse a singly linked list?
+223 . What is a stack, and what are its common applications?
+224 . What is a queue, and what are its common applications?
+225 . What is a circular queue?
+226 . What is a binary tree?
+227 . What is a binary search tree (BST), and what are its time complexities?
+228 . What is a balanced tree (AVL, Red-Black Tree)? Why does std::map use a Red-Black Tree?
+229 . What is a heap, and how is it different from a BST?
+230 . What is a graph, and what are the common ways to represent one?
+231 . What is BFS vs DFS?
+232 . What is a hash table, and how does it achieve O(1) average lookup?
+233 . How do hash tables handle collisions (chaining vs open addressing)?
+234 . What is a trie, and where is it used?
+235 . What is the difference between linear search and binary search?
+236 . What is dynamic programming, and how is it different from plain recursion?
+Multithreading & Concurrency
+237 . What is the need for multithreading in C++?
+238 . How do you create a thread using std::thread?
+239 . What is the difference between join() and detach()?
+240 . What is a race condition?
+241 . What is std::mutex, and how do you use it?
+242 . What is std::lock_guard vs std::unique_lock?
+243 . What is a deadlock, and how do you avoid it?
+244 . What is std::condition_variable, and how is it used for thread synchronization?
+245 . What is std::atomic?
+246 . What is std::async, and what is a std::future?
+247 . What is the difference between concurrency and parallelism?
+248 . What is false sharing?
+Modern C++ (11/14/17/20/23)
+249 . What are the major features introduced in C++11?
+250 . What are rvalue references, and what problem do they solve?
+251 . What is move semantics, and how is it different from copying?
+252 . What is std::move, and what does it actually do?
+253 . What is perfect forwarding, and what is std::forward?
+254 . What are structured bindings (C++17)?
+255 . What is if constexpr (C++17), and how is it different from a normal if?
+256 . What are C++20 Concepts?
+257 . What are C++20 Coroutines?
+258 . What are C++20 Modules, and how do they improve on header files?
+259 . What is std::optional, and what problem does it solve?
+260 . What is std::variant, and how is it different from a union?
+261 . What is std::any?
+262 . What are the major features introduced in C++23?
+Miscellaneous
+263 . What is undefined behavior, and can you give examples?
+264 . What is the difference between the . and -> operators?
+265 . What is the difference between sizeof and strlen?
+266 . What is the difference between pass-by-value, pass-by-reference, and pass-by-pointer?
+267 . What is Return Value Optimization (RVO) / Copy Elision?
+268 . What is the difference between a compiler error and a linker error?
+269 . What is ABI (Application Binary Interface) compatibility?
+270 . What is the difference between #define and const/constexpr?
+271 . What is the "static initialization order fiasco"?

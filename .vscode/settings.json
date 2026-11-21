@@ -1,0 +1,27 @@
+{
+  "java.project.sourcePaths": [
+    "chap3-decorator",
+    "chap4-factory",
+    "chap5-singleton",
+    "chap6-command",
+    "chap7-adaptive",
+    "chap8-template-method",
+    "chap9-iterator-composite",
+    "chap10-state-pattern",
+    "chap11-proxy",
+    "chap11-proxy/virtual-proxy",
+    "chap11-proxy/protection-proxy",
+    "chap12-compound",
+    "chap12-compound/mvc"
+  ],
+  "files.readonly": false,
+  "files.readonlyInclude": {},
+  "java.configuration.updateBuildConfiguration": "automatic",
+  "cSpell.words": [
+    "leastknowledge",
+    "Caffiene",
+    "Celing",
+    "Starbuzz",
+    "Chocoholic"
+  ]
+}

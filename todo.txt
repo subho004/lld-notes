@@ -1,0 +1,3 @@
+all chapters in c++ along with java in proper folder separated
+notes of each chapter with each design pattern. and diff between java and c++ where observer to have more clarity.
+final readme having all the index linkedin 

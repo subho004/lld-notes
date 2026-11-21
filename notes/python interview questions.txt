@@ -1,0 +1,252 @@
+Interview Questions
+Python Platform & Interpreter Basics
+1 . What is Python and what are its key features?
+2 . What is the difference between Python 2 and Python 3?
+3 . What is CPython, and how does it differ from other implementations (PyPy, Jython, IronPython)?
+4 . What is the difference between a Python script and a compiled bytecode file (.pyc)?
+5 . What is the Python interpreter's execution model? (source -> bytecode -> PVM)
+6 . What is PEP 8, and why does it matter?
+7 . What is PEP 20 (The Zen of Python)?
+8 . Is Python interpreted or compiled?
+9 . What is the difference between CPython, a JIT compiler, and an AOT compiler?
+10 . What are the important differences between Python and Java/C++?
+Data Types & Variables
+11 . What are the built-in data types in Python?
+12 . What is dynamic typing, and how is it different from static typing?
+13 . What is duck typing?
+14 . What is the difference between mutable and immutable types?
+15 . How does variable assignment work in Python (names vs references)?
+16 . What is the difference between is and ==?
+17 . What is object identity, and what does id() return?
+18 . What is None, and how is it different from null in other languages?
+19 . What is type casting/conversion in Python?
+20 . What is the difference between implicit and explicit type conversion?
+Numbers & Operators
+21 . How does Python handle integer overflow?
+22 . What is the difference between the / and // operators?
+23 . Why does is sometimes return True for small integers but not for large ones?
+24 . What is the decimal module used for, and why not always use float?
+25 . What is complex number support in Python?
+26 . What are Python's operator precedence rules for common operators?
+27 . What is the walrus operator := and when was it introduced?
+Strings
+28 . Are strings mutable or immutable in Python?
+29 . What is string interning?
+30 . What are the different ways to format strings in Python (%-formatting, .format(), f-strings)?
+31 . What is the difference between a str object and a bytes object?
+32 . How do you encode and decode strings?
+33 . What are some string methods you use frequently?
+34 . Why should you avoid string concatenation with + in a loop?
+35 . What is the difference between join() and + for concatenation?
+36 . What are raw strings, and when do you use them?
+37 . How do you reverse a string in Python?
+Lists & Tuples
+38 . What is the difference between a list and a tuple?
+39 . Why are tuples generally faster than lists?
+40 . What is the difference between a shallow copy and a deep copy?
+41 . How do list slicing operations work?
+42 . What is the time complexity of common list operations?
+43 . How does Python implement dynamic list resizing internally?
+44 . What is a named tuple, and why use one?
+45 . What is list comprehension, and how is it different from map/filter?
+46 . What is the difference between append() and extend()?
+47 . How do you remove duplicates from a list while preserving order?
+48 . What is the danger of using a mutable default argument like a list?
+Dictionaries & Sets
+49 . How does a Python dictionary work internally (hash table)?
+50 . What are the requirements for an object to be used as a dictionary key?
+51 . What is the difference between dict.get() and dict[key]?
+52 . How has dictionary ordering changed across Python versions?
+53 . What is a set, and how is it different from a list?
+54 . What is a frozenset?
+55 . How do you merge two dictionaries?
+56 . What is a defaultdict, and when do you use it?
+57 . What is the time complexity of dict/set lookups, and why?
+58 . How do dictionaries handle hash collisions?
+Object Oriented Programming Basics
+59 . What is a class and an object in Python?
+60 . How do you define a class and create an instance?
+61 . What is self, and why is it explicitly passed?
+62 . What is the __init__ method?
+63 . What is the difference between class variables and instance variables?
+64 . What is encapsulation in Python, and how is it achieved (name mangling)?
+65 . What is inheritance, and how do you implement it in Python?
+66 . What is method overriding?
+67 . Does Python support method overloading?
+68 . What is multiple inheritance, and how does Python handle it?
+69 . What is the Method Resolution Order (MRO), and what algorithm does Python use?
+70 . What is super(), and how does it work with the MRO?
+Advanced OOP Concepts
+71 . What is polymorphism in Python?
+72 . What is an abstract class, and how do you create one using the abc module?
+73 . What is an interface in Python, and how is it simulated?
+74 . What is the difference between a static method, a class method, and an instance method?
+75 . What is a property, and how do you use @property?
+76 . What are getters and setters in Python, and why are they usually unnecessary?
+77 . What is composition vs inheritance?
+78 . What is a mixin class?
+79 . What is a metaclass, and how does type relate to classes?
+80 . What is the difference between __new__ and __init__?
+81 . What is monkey patching, and what are its risks?
+82 . What are __slots__, and why would you use them?
+Magic / Dunder Methods
+83 . What are dunder (magic) methods, and why are they useful?
+84 . What is the difference between __str__ and __repr__?
+85 . How do you make a custom object comparable with ==, <, etc.?
+86 . How do you overload operators like + in Python?
+87 . What is __len__, and when is it used?
+88 . What are __getitem__ and __setitem__, and how do they enable indexing?
+89 . What are __iter__ and __next__, and how do they make an object iterable?
+90 . What is __call__, and what does it mean for an object to be callable?
+91 . What are __enter__ and __exit__, and how do they relate to context managers?
+92 . What is __hash__, and why must it be consistent with __eq__?
+Functions
+93 . How do you define a function with default arguments in Python?
+94 . What is the difference between positional and keyword arguments?
+95 . What are *args and **kwargs?
+96 . What is a lambda function, and when should you use one?
+97 . What is variable scope, and what is the LEGB rule?
+98 . What is a closure, and how does it work?
+99 . What is the nonlocal keyword used for?
+100 . What is the global keyword used for?
+101 . What are first-class functions?
+102 . What is function annotation / type hinting for parameters?
+103 . What is recursion, and what is Python's recursion limit?
+104 . Why doesn't Python optimize tail recursion?
+Decorators
+105 . What is a decorator, and how does it work?
+106 . How do you write a simple function decorator?
+107 . How do you write a decorator that accepts arguments?
+108 . What is functools.wraps, and why is it important?
+109 . How do you chain multiple decorators?
+110 . What are class-based decorators?
+111 . What are some common built-in decorators?
+Iterators & Generators
+112 . What is the difference between an iterable and an iterator?
+113 . What is the iterator protocol?
+114 . What is a generator function, and how does yield work?
+115 . What is the difference between return and yield?
+116 . What are generator expressions, and how are they different from list comprehensions?
+117 . What is yield from, and when do you use it?
+118 . How do generators help with memory efficiency?
+119 . What is a coroutine, and how does it relate to generators?
+120 . How do you send a value into a generator using .send()?
+Exception Handling
+121 . Why is exception handling important?
+122 . What is the exception hierarchy in Python (BaseException, Exception)?
+123 . What is the difference between except Exception and a bare except:?
+124 . How do you handle multiple exception types in one block?
+125 . What is the purpose of the finally block?
+126 . What is the else clause in a try statement used for?
+127 . How do you create a custom exception class?
+128 . What is exception chaining (raise ... from ...)?
+129 . What is the difference between raise and raise Exception()?
+130 . What are some Python exception handling best practices?
+File Handling
+131 . How do you read and write files in Python?
+132 . What is the difference between opening a file in 'r', 'w', 'a', and 'rb' modes?
+133 . Why is it recommended to use with open(...) instead of manual open/close?
+134 . How do you read a large file efficiently without loading it entirely into memory?
+135 . What is the difference between readline(), readlines(), and iterating over a file object?
+Context Managers
+136 . What is a context manager, and what problem does it solve?
+137 . How do you implement a context manager using a class?
+138 . How do you implement a context manager using contextlib.contextmanager?
+139 . What is contextlib.suppress used for?
+140 . Can you use multiple context managers in a single with statement?
+Comprehensions
+141 . What are list, dict, and set comprehensions?
+142 . When should you avoid using a comprehension?
+143 . What is a nested comprehension?
+144 . How do comprehensions compare to map()/filter() in performance and readability?
+Functional Programming
+145 . What is functional programming, and how does Python support it?
+146 . What is map(), and how do you use it?
+147 . What is filter(), and how do you use it?
+148 . What is functools.reduce(), and how do you use it?
+149 . What is functools.partial()?
+150 . What is functools.lru_cache, and how does memoization work?
+151 . What are pure functions, and why do they matter?
+Modules & Packages
+152 . What is the difference between a module and a package?
+153 . What is __init__.py used for?
+154 . What is the difference between absolute and relative imports?
+155 . What does if __name__ == "__main__": do?
+156 . What is sys.path, and how does Python find modules?
+157 . What is a namespace package?
+158 . What is the difference between import module and from module import x?
+Memory Management & Garbage Collection
+159 . How does Python manage memory?
+160 . What is reference counting, and how does CPython use it?
+161 . What causes a reference cycle, and how does Python's garbage collector handle it?
+162 . What is the gc module used for?
+163 . What are weak references, and when would you use them?
+164 . What is the relationship between id(), memory addresses, and object lifetime in CPython?
+165 . How does Python's small integer/string caching (interning) affect memory?
+Multithreading, Multiprocessing & Concurrency
+166 . What is the Global Interpreter Lock (GIL), and why does it exist?
+167 . Does the GIL mean Python can't do parallel work at all?
+168 . What is the difference between multithreading and multiprocessing in Python?
+169 . When would you use threading vs multiprocessing vs asyncio?
+170 . What is a race condition, and how do you prevent one in Python?
+171 . What is a Lock in the threading module?
+172 . What is a deadlock?
+173 . What is the concurrent.futures module?
+174 . What is asyncio, and what problem does it solve?
+175 . What is the difference between a coroutine defined with async def and a generator?
+176 . What is an event loop?
+177 . What is the difference between await and calling a coroutine directly?
+178 . How do you run blocking code inside an asyncio application?
+Collections Module
+179 . What is collections.Counter, and how is it used?
+180 . What is collections.OrderedDict, and is it still needed in modern Python?
+181 . What is collections.deque, and why is it faster than a list for queue operations?
+182 . What is collections.namedtuple?
+183 . What is collections.ChainMap?
+Itertools & Additional Tools
+184 . What is the itertools module, and what are some commonly used functions in it?
+185 . What is itertools.chain used for?
+186 . What is itertools.groupby, and what is a common pitfall with it?
+187 . What is the difference between zip() and itertools.zip_longest()?
+188 . What is enumerate(), and why is it preferred over manual index tracking?
+Regular Expressions
+189 . What module does Python use for regular expressions?
+190 . What is the difference between re.match(), re.search(), and re.findall()?
+191 . What is the difference between greedy and non-greedy matching?
+192 . Why should you compile a regex with re.compile() when reusing it?
+Testing & Debugging
+193 . What is the unittest module, and how do you write a basic test case?
+194 . What is the difference between unittest and pytest?
+195 . What are fixtures in pytest?
+196 . What is mocking, and how do you use unittest.mock?
+197 . How do you debug Python code (pdb, breakpoint())?
+198 . What is an assert statement, and when is it disabled?
+Type Hints & Static Typing
+199 . What are type hints, and why were they introduced?
+200 . Does Python enforce type hints at runtime?
+201 . What is mypy, and what does it do?
+202 . What are Optional and Union, and what does the newer | syntax for types mean?
+203 . What is TypeVar, and how is it used for generics?
+204 . What is a Protocol in the typing module, and how does it relate to duck typing?
+Packaging, Virtual Environments & Tooling
+205 . What is a virtual environment, and why is it important?
+206 . What is the difference between venv, virtualenv, and conda?
+207 . What is pip, and what is a requirements.txt file?
+208 . What is pyproject.toml, and how does it relate to setup.py?
+209 . What is the difference between an editable install and a regular install?
+New Features by Version
+210 . What are the major new features introduced in Python 3.6?
+211 . What are the major new features introduced in Python 3.8?
+212 . What are the major new features introduced in Python 3.9?
+213 . What are the major new features introduced in Python 3.10?
+214 . What are the major new features introduced in Python 3.11?
+215 . What are the major new features introduced in Python 3.12?
+216 . What is structural pattern matching (match/case), introduced in Python 3.10?
+Miscellaneous
+217 . What is the difference between copy.copy() and copy.deepcopy()?
+218 . What is the difference between __init__.py and running a module as __main__?
+219 . What is the difference between a script and a module?
+220 . What is PYTHONPATH?
+221 . What is memoization, and how do you implement it manually vs with lru_cache?
+222 . What is the difference between shallow equality and deep equality for custom objects?
+223 . What is the difference between CPU-bound and I/O-bound tasks, and how does that affect your concurrency choice in Python?

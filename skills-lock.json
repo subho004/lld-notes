@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "skills": {
+    "obsidian-notes-creator": {
+      "source": "szeyu/vibe-study-skills",
+      "commit": "5e402fd56291b08fd364b9883341597ebde8990f",
+      "sourceType": "github",
+      "skillPath": "skills/obsidian-notes-creator/SKILL.md",
+      "computedHash": "552797d614462739e5bd9fa27eb03b964ed4fe896a2a81588b8239901e956463"
+    }
+  }
+}
